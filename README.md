@@ -115,12 +115,12 @@ echo Hello $USER. You are in $PWD. You are using $SHELL. Here is a random number
 >Ex: Insert `export <variable_name>="Value"` to the  file and save it.
 
 
-## Exercise (Arithmetic Expression)
+## Exercise 4 (Arithmetic Expression)
 - Sample basic expression: `$((2+3))`
 >[!Important]
 >Double brackets are **essential** to make it an arithmetic expression unless it will be an string.
 
-	- Update the file `getrichquick.sh` file to have a variable `getRich` where it is a number in between (0-14) and adding input age into it, finally display the variable as the number of years to get rich.
+- Update the file `getrichquick.sh` file to have a variable `getRich` where it is a number in between (0-14) and adding input age into it, finally display the variable as the number of years to get rich.
 
 ```bash
 #!/bin/bash
@@ -134,7 +134,7 @@ echo You have $getRich years to get rich. Good luck!
 ```
 
 
-## Exercise 4 (Conditionals)
+## Exercise 5 (Conditionals)
 - Basic conditional
 ```bash
 if [[a==b]]; then
@@ -204,7 +204,7 @@ else
 fi
 ```
 
-## Exercise 05 (Case)
+## Exercise 6 (Case)
 - Extended code of the game including case
 ```bash                                                                                                                                    
 #!/bin/bash
@@ -273,7 +273,7 @@ else
 fi
 ```
 
-## Exercise 6 (Loops)
+## Exercise 7 (Loops)
 
 - While loop
 ```bash
